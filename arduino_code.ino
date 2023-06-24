@@ -45,7 +45,7 @@ void loop() {
   y_data = pyData.substring(pyData.indexOf(" ")+1).toInt();
     
   if ((x_data + y_data) <= 3000) {
-    // Argumen ke-3 harus dikalibrasi ulang setiap kali alat dibongkar pasang
+    
     angle_x = map(x_data, 0, 1920, 55, 1920/sensitivity_x + 55);
     angle_y = map(y_data, 0, 1080, 10, 1080/sensitivity_y + 10);
 
