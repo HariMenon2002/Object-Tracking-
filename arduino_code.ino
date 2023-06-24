@@ -8,8 +8,8 @@ Servo servo_x;
 Servo servo_y;
 
 int angle_x, angle_y, x_data, y_data;
-int sensitivity_x = 25; //Lower value = more sensitive
-int sensitivity_y = 25; //Lower value = more sensitive
+int sensitivity_x = 80; //Lower value = more sensitive
+int sensitivity_y = 35; //Lower value = more sensitive
 
 String pyData;
 
